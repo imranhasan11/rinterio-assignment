@@ -1,3 +1,6 @@
+.font-poppins{
+    font-family: "Poppins", sans-serif;
+}
 .banner{
      text-align: center;
 }
@@ -7,4 +10,7 @@
 }
 .banner-title{
     padding: 20px;
+}
+.mail-section{
+    background-image: url('/assets/bg.jpg');
 }
