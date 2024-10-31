@@ -22,7 +22,8 @@ family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;
 </head>
 <body class="font-poppins bg-slate-50">
     <!--header section -->
-    <header class="md:container md:mx-auto">
+    <header class=" shadow-xl">
+      <div class="md:container md:mx-auto">
       <nav>
         <div class="navbar ">
             <div class="navbar-start">
@@ -65,7 +66,11 @@ family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;
                   <li><a>Contact Us</a></li>
                 </ul>
               </div>
-              <a class="btn bg-lime-500 rounded-full">Book Consult  <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-badge p-2"></i></a>
+              <div class="hidden lg:block">
+              <i class="fa-solid fa-magnifying-glass mr-4 rounded-badge shadow-md p-2"></i>
+              <i class="fa-solid fa-cart-shopping mr-4 rounded-badge shadow-md p-2" ></i>
+              <a class="btn bg-lime-500 rounded-full ">Book Consult  <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-badge p-2"></i></a>
+            </div>
             </div>
           </div>
       </nav>
@@ -74,17 +79,19 @@ family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;
         <img class="banner-img" src="assets/banner.png" alt="">
         <h1 class="text-4xl font-bold banner-title text-black ">A barn house of this design has a striking appearance</h1>
         <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-        <button class="btn bg-lime-200 rounded-full mt-3">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-400 rounded-badge p-2"></i></button>
+        <button class="btn bg-lime-200 rounded-full mt-3 w-full lg:w-40">View Details <i class="fa-solid fa-arrow-right -rotate-45 bg-lime-400 rounded-badge p-2"></i></button>
       </div>
+    </div>
     </header>
 
     <!--main section -->
-    <main>
-       
-      <div class="card lg:card-side md:container md:mx-auto mt-8">
+    <main class="mt-20">
+      <img class="w-13 h-5 hidden lg:block ml-20" src="assets/Vector.png" alt="">
+
+      <div class="card lg:card-side md:container md:mx-auto ">
         <div class="card-body">
-          <div class="card-actions justify-start">
-          <button class="btn"> <i class="fa-solid fa-arrow-right"></i>About Us</button>
+          <div class=" text-center lg:card-actions lg:text-start">
+          <button class="btn shadow-md rounded-box"> <i class="fa-solid fa-arrow-right"></i>About Us</button>
           </div>
           <h2 class="card-title">We design thoughtful, liveable spaces</h2>
           <p class="text-sm">The barn house captivates with its blend of rustic charm and 
@@ -154,9 +161,7 @@ family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;
               <div class="col-span-2">
               <div class="card lg:card-side bg-base-100  border p-4">
                 <figure>
-                  <img
-                    src="assets/img1.png"
-                    alt="Album" />
+                  <img class="w-full h-auto" src="assets/img1.png" alt="" />
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title">Commercial</h2>
@@ -168,19 +173,17 @@ family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;
               </div>
             </div>
             <div class="border p-4 rounded-xl">
-              <img src="assets/img2.png" alt="">
+              <img class="w-full h-auto" src="assets/img2.png" alt="">
             </div>
           </div>
             <div class="grid grid-cols-1 gap-4 mb-10 lg:grid-cols-4 ">
             <div class="border p-4 rounded-xl">
-              <img src="assets/img3.png" alt="">
+              <img class="w-full h-auto" src="assets/img3.png" alt="">
             </div>
             <div class="col-span-2 ">
               <div class="card lg:card-side bg-base-100  border p-4 ">
                 <figure>
-                  <img
-                    src="assets/img4.png"
-                    alt="Album" />
+                  <img class="w-full h-auto" src="assets/img4.png" alt="Album" />
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title">Commercial</h2>
@@ -191,7 +194,7 @@ family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;
                 </div>
               </div>
             <div class="border border-solid p-4 rounded-xl">
-              <img src="assets/img5.png"  alt="">
+              <img class="w-full h-auto" src="assets/img5.png"  alt="">
             </div>
           </div>
        </div>
@@ -315,7 +318,7 @@ family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;
               <input class="input input-bordered gap-2 type="text" class="grow" placeholder="Email Address" />
             </div>
             <textarea placeholder="Write your Message here"class="textarea textarea-bordered textarea-lg w-full my-5"></textarea>
-            <button class="btn bg-lime-500 rounded-full w-full">Send Mail  <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-badge p-2"></i></button>
+            <button class="btn bg-lime-500 rounded-full w-full mb-20">Send Mail  <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-badge p-2"></i></button>
           </div>
         </div>
       </div>
